@@ -1,0 +1,39 @@
+.person{
+    border-radius: 1rem;
+    border: 1px solid black;
+    width: 15vw;
+    height: 10vw;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.name{
+    text-align: center;
+    padding-bottom: .5rem;
+}
+
+.dates{
+    text-align: center;
+}
+
+.person ul{
+    margin: 0px;
+    padding: 0px;
+    padding-top: .5rem;
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.addMember img, .toProfile img{
+    width: 16px;
+}
+
+.female{
+    border: 2px solid lightcoral;
+}
+.male{
+    border: 2px solid rgb(84, 84, 196);
+}
