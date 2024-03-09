@@ -49,8 +49,27 @@
     <div class="form newPerson">
         <h1>Új családtag hozzáadása</h1>
         <form action="forms/form.txt" method="get">
-            <label for="Surname">Vezetéknév</label>
-            <input type="text" value="Vezeték">
+            <div class="radio">
+                <input type="radio">
+            <label for="male">Férfi</label>
+            <input type="radio">
+            <label for="female">Nő</label>
+            <input type="radio">
+            <label for="unknown">Ismeretlen</label><br>
+        </div>
+            
+            <div>
+                <label for="Surname">Vezetéknév</label><br>
+                <input type="text" id="Surname" placeholder="Vezetéknév">
+            </div>
+            <div>
+                <label for="Firstname">Keresztnév</label><br>
+                <input type="text" id="Firstname" placeholder="Keresztnév">
+            </div>
+            <label for="birthday">Születési dátum</label>
+            <input type="date" id="birthday"><br><br>
+
+            <input type="submit" value="Mentés">
         </form>
     </div>
 </body>
